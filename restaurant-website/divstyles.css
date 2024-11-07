@@ -1,0 +1,115 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #6689BD;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hover Effect for Navigation Items */
+
+.navbar a:hover {
+    text-decoration: underline;
+    background-color: #fff;
+}
+
+
+/* Content Section Styling */
+.content {
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 60px;
+}
+
+/* Image Styling */
+.image img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Text Module Styling */
+.text-module {
+    max-width: 400px;
+    text-align: left;
+}
+
+.text-module h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-module p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Background Image Container Styling */
+.background-image-container {
+    background-image: url('ezointerior1.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 600px;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center; /* Center vertically */
+    color: white; /* Text color for the headline */
+    text-align: center;  
+    position: relative; /* Position for potential overlay */
+    margin-bottom: 60px;
+}
+
+/* Optional: Add an Overlay for Better Readability */
+.background-image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1; /* Ensure the overlay is behind the text */
+border-radius: 20px;}
+
+/* Headline Styling */
+.background-image-container h1 {
+    position: relative;
+    z-index: 2; /* Make sure the text is above the overlay */
+    font-size: 80px
+    margin: 0; 
+}
