@@ -21,6 +21,7 @@ body {
     margin-bottom: 0px;
     margin-top: 0px;
     
+    
 }
 
 .navbar ul {
@@ -67,13 +68,14 @@ body {
 
 /* Image Styling */
 .image img {
-    width: 400px;
-    height: 450px;
+    width: 250px;
+    height: 300px;
     border-radius: 20px;
 }
 .image-2 img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+
 }
 
 /* Text Module Styling */
@@ -104,7 +106,7 @@ body {
     color: white; /* Text color for the headline */
     text-align: center;  
     position: relative; /* Position for potential overlay */
-    margin-bottom: 60px;
+    
 }
 
 /* Optional: Add an Overlay for Better Readability */
@@ -117,7 +119,7 @@ body {
     bottom: 0;
     background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
     z-index: 1; /* Ensure the overlay is behind the text */
-border-radius: 20px;}
+}
 
 /* Headline Styling */
 .background-image-container h1 {
@@ -131,7 +133,7 @@ border-radius: 20px;}
  text-align: center;
  
 }
-.button{
+.button {
     size: 40px;
 
 }
@@ -143,16 +145,17 @@ height: 150px;
 
 }
 .fish-imgs-2 img {
-    width: 300px;
-    height: 200;
+    width: 200px;
+    height: 100px;
     margin-left: 200px;
     margin-right: 100px;
 }
 .home-page {
-    background-color: midnightblue;
+    background-color: #002D62;
     text-align: center;
     color: white;
     padding: 40px;
+
 }
 
 
@@ -162,6 +165,7 @@ height: 150px;
     text-align: center;
     margin-bottom: 0px;
     margin-top: 0px;
+    ;
 
     
 
@@ -172,4 +176,5 @@ height: 150px;
     text-align: left;
     margin-left: 40px;
     color: ghostwhite;
+
 }
