@@ -55,17 +55,20 @@ body {
 /* Content Section Styling */
 .content {
     width: 100vw;
-    justify-content: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 50px;
+    padding-top: 60px;
     padding-bottom: 60px;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    
 }
 .content ul {
     list-style-type: none
 }
-
+.content a {
+    text-decoration: none ;
+}
 /* Image Styling */
 .image img {
     width: 250px;
@@ -77,15 +80,19 @@ body {
     height: 250px;
 
 }
-
+.content p 
 /* Text Module Styling */
 .text-module {
     max-width: 400px;
     text-align: left;
 }
+.text-module h1 {
+    font-size: 700px;
+    margin-bottom: 10px;
+}
 
 .text-module h2 {
-    font-size: 24px;
+    font-size: 45px;
     margin-bottom: 10px;
 }
 
@@ -109,18 +116,12 @@ body {
     
 }
 
-/* Optional: Add an Overlay for Better Readability */
-.background-image-container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
-    z-index: 1; /* Ensure the overlay is behind the text */
-}
 
+.logo-image img {
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+}
 /* Headline Styling */
 .background-image-container h1 {
     position: relative;
@@ -158,7 +159,37 @@ height: 150px;
 
 }
 
+.home-page-links a {
+ color: ghostwhite;
+ text-decoration: none;
+ display: inline;
+ padding: 50px;
+}
 
+.menu-heading {
+align-items: center;
+text-align: center;
+display: flex;
+padding: 40px;
+justify-content: center;
+}
+.menu-heading h1 {
+font-size: 70px;
+
+}
+.menu-links a {
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+}
+.button {
+    padding: 40px;
+    background-color: white;
+
+}
+.button ul {
+    list-style-type: none;
+}
 .footer {
     background-color: #6689BD;
     padding: 20px 0;
@@ -166,9 +197,6 @@ height: 150px;
     margin-bottom: 0px;
     margin-top: 0px;
     ;
-
-    
-
 }
 
 .footer ul {
@@ -177,4 +205,10 @@ height: 150px;
     margin-left: 40px;
     color: ghostwhite;
 
+}
+
+.footer img {
+    
+    width: 40px;
+    height: 40px;
 }
