@@ -1,0 +1,154 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+body {
+      font-family: 'Silkscreen', sans-serif;
+      font-size: 24px; /* Body text size */
+      margin: 20px;
+      line-height: 1.5;
+      color: deeppink;
+    }
+
+    h1 {
+      font-size: 64px; /* H1 size */
+      margin: 10px 0;
+    }
+    h2 {
+      font-size: 48px; /* H2 size */
+      margin: 10px 0;
+    }
+
+    h3 {
+      font-size: 32px; /* H3 size */
+      margin: 10px 0;
+    }
+   
+    h4 {
+        font-family: "Lucida Console", monospace;
+        font-size: 20px;
+    
+        color: black;
+    }
+
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #fffff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+.navbar a {
+    text-decoration: none;
+    color: deeppink;
+}
+.queenimg img {
+    width: 420px;
+    height: 630px;
+    border: 5px solid;
+    border-color: deeppink;
+    float: left;
+   
+}
+.navbar a:hover {
+    text-decoration: underline;
+    background-color: deeppink;
+}
+.logo {
+    text-align: center;
+
+}
+
+.name {
+    text-align: left;
+}
+
+.quote {
+
+text-align: center;
+}
+
+.stats {
+    font-family: "Lucida Console",monospace;
+    color: black;
+    float: center;
+}
+.stats table {
+    border-collapse: collapse;
+    border: 5px solid;
+    border-color: deeppink;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #FFDBEC;
+}
+.stats td {
+    padding: 10px;
+}
+
+.personal-info {
+text-align: left;
+}
+
+.looksimg img {
+  width: 250px;
+  height: 450px;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.queenlinks img {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    border: 5px solid;
+    border-color: deeppink;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.arrow {
+    text-decoration: none;
+}
+
+.arrow a:hover {
+    text-decoration: underline;
+    background-color: deeppink;
+}
+
+.arrow ul {
+    list-style-type: none;
+}
+
+.arrow li {
+    display: inline;
+    margin: 0 20px;
+}
+
+
+.queenlinks img:hover {
+
+    transform: scale(1.1); /* Increases size by 10% */
+
+}
+
+.row {
+  display: flex;
+  margin: 0 auto;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
