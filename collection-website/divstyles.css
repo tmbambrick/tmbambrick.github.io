@@ -33,7 +33,11 @@ body {
         color: black;
     }
 
-
+    h6 {
+        font-family: "basis33" sans-serif;
+        font-size: 32px;
+        margin: 10px;
+    }
 /* Navigation Bar Styling */
 .navbar {
     background-color: #fffff;
