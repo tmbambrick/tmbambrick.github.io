@@ -1,0 +1,32 @@
+/* Basic Reset */
+* {
+    margin: 20px 0;
+    padding: 0;
+    margin: 0 auto;
+}
+body {
+      font-family: 'Silkscreen', sans-serif;
+      font-size: 24px; /* Body text size */
+      margin: 20px;
+      line-height: 1.5;
+      color: rebeccapurple;
+    }
+
+     h1 {
+      font-size: 64px; /* H1 size */
+      margin: 10px 0;
+  }
+
+.links ul {
+    list-style-type: none;
+}
+
+.links links {
+    display: inline;
+    margin: 0 30px;
+}
+
+.links {
+    justify-content: center;
+    align-content: center;
+}
